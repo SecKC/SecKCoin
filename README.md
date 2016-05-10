@@ -2,7 +2,7 @@
 
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
-## ⏣SRequirements ##
+## ⏣Sequirements ##
 * Wallet is Windows Only (I know I know, I am working on mobile clients)
 
 ### How to I mine me some sweet sweet ⏣SKC ###
