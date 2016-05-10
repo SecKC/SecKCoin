@@ -1,7 +1,17 @@
-## ⏣SecKCoin is a cryptocurrency developed by SecKC.
+## ⏣SecKCoin (SKC)is a cryptocurrency developed by SecKC.
 
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
+## ⏣SKC Technical Details ##
+* Coin Type: Pure PoW, 
+* Hashing Algorithm: Scrypt, 
+* Time Between Blocks (in seconds): 15 
+* Block Reward: 1,337
+* Block Reward Halving Rate: 100
+* Total Coins: 267,400, 
+* Daily Block Count: 5,760
+* Coins Generated Per Day: 7,701,120
+
 ## ⏣Requirements ##
 * Wallet is Windows Only. It does work with Wine.  Tested with Ubuntu 14.04 and OSX. (I know I know, I am working on mobile clients)
 * Use at your own risk. https://malwr.com/analysis/NDI1NjFiODkyMmZlNDBmNzliZDgxNDc0NzYwMTFjNjY/
