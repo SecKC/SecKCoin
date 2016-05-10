@@ -13,10 +13,12 @@
 ### How to I use the ⏣SKC Wallet?###
 * Run SecKCoin_Miner_V1.exe
 * Click Help --> Debug Window
+
  ```
  addnode 198.12.124.66 add
  addnode 136.61.186.142 add
 ```
+
 [![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/SecKCoin.gif)]
 * Add SV569yTJR1ZZV5voERvKGEdWhvxrJ8Bcg4 to your address book. (Thats me!)
 * Wallet addresses are ONLY available through the Windows client.
