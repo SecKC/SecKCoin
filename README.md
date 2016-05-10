@@ -1,4 +1,4 @@
-# ⏣SecKCoin is a crytocurrency developed by SecKC.
+# ⏣SecKCoin is a cryptocurrency developed by SecKC.
 
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
