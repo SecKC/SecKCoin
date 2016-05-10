@@ -3,7 +3,7 @@
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣Requirements ##
-* Wallet is Windows Only (I know I know, I am working on mobile clients)
+* Wallet is Windows Only. It does work with Wine.  Tested with Ubuntu 14.04 and OSX. (I know I know, I am working on mobile clients)
 * Use at your own risk. https://malwr.com/analysis/NDI1NjFiODkyMmZlNDBmNzliZDgxNDc0NzYwMTFjNjY/
 * https://www.virustotal.com/en/file/baf7bd5898625db01a2b03c42ceeb0e18643b89ad07203cd3808cadcc02dbe06/analysis/1460854630/
 * This software is currently detected as malware because it is "unknown" and mines cryptocurrency and is based off of "BitcoinMiner".  Since this application uses computer resources it is classififed as a potentially unwanted application (PUP).
