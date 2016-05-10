@@ -1,6 +1,5 @@
-# ⏣SecKCoin
+# ⏣SecKCoin is a crytocurrency developed by SecKC.
 
-⏣SKC is a crytocurrency developed by SecKC.
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣SRequirements ##
@@ -18,7 +17,7 @@
 * This will begin mining SKC.  To stop, simply go back into debug menu and "setgenerate false"
 
 ### How to use ###
-
+[![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/SecKCoin.gif)]
 * Add SV569yTJR1ZZV5voERvKGEdWhvxrJ8Bcg4 to your address book. (Thats me!)
 * Wallet addresses are ONLY available through the Windows client.
 
