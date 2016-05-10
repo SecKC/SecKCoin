@@ -4,6 +4,8 @@
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣Requirements ##
 * Wallet is Windows Only (I know I know, I am working on mobile clients)
+* Use at your own risk. https://malwr.com/analysis/NDI1NjFiODkyMmZlNDBmNzliZDgxNDc0NzYwMTFjNjY/
+* This software is currently detected as malware because it is "unknown" and mines cryptocurrency.
 
 ### How to I mine me some sweet sweet ⏣SKC ###
 * Run SecKCoin_Miner_V1.exe
