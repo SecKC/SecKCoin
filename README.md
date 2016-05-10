@@ -3,12 +3,11 @@
 ========================
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣SKC Technical Details ##
-* Coin Type: Pure PoW, 
-* Hashing Algorithm: Scrypt, 
+* Coin Type: Pure PoW (https://en.bitcoin.it/wiki/Proof_of_work)
+* Hashing Algorithm: Scrypt (https://en.bitcoin.it/wiki/Scrypt_proof_of_work)
 * Time Between Blocks (in seconds): 15 
 * Block Reward: 1,337
 * Block Reward Halving Rate: 100
-* Total Coins: 267,400, 
 * Daily Block Count: 5,760
 * Coins Generated Per Day: 7,701,120
 
