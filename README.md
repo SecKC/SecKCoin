@@ -19,7 +19,7 @@
  addnode 136.61.186.142 add
 ```
 
-[![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/SecKCoin.gif)]
+[![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/SecKCoin2.gif)]
 * Add SV569yTJR1ZZV5voERvKGEdWhvxrJ8Bcg4 to your address book. (Thats me!)
 * Wallet addresses are ONLY available through the Windows client.
 
