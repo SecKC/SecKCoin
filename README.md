@@ -2,6 +2,7 @@
 
 ========================
 #[Blockchain Explorer](https://seckchain.get-o.net/) 
+* Thanks to @rixon & @myung.kang
 
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣SKC Technical Details ##
@@ -14,7 +15,7 @@
 * Coins Generated Per Day: 7,701,120
 
 ## ⏣Requirements ##
-* Wallet is Windows Only. It does work with Wine.  Tested with Ubuntu 14.04 and OSX. (I know I know, I am working on mobile clients)
+* Wallet supports Windows and Linux! It does work with Wine + OSX.  (I know I know, I am working on mobile clients)
 * Use at your own risk. https://malwr.com/analysis/NDI1NjFiODkyMmZlNDBmNzliZDgxNDc0NzYwMTFjNjY/
 * https://www.virustotal.com/en/file/baf7bd5898625db01a2b03c42ceeb0e18643b89ad07203cd3808cadcc02dbe06/analysis/1460854630/
 * This software is currently detected as malware because it is "unknown" and mines cryptocurrency and is based off of "BitcoinMiner".  Since this application uses computer resources it is classififed as a potentially unwanted application (PUP).
@@ -33,6 +34,7 @@
 [![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/resources/SecKCoin2.gif)]
 * Add SV569yTJR1ZZV5voERvKGEdWhvxrJ8Bcg4 to your address book. (Thats me!)
 * Wallet addresses are ONLY available through the Windows client.
+* Paper Wallets now available!  Thanks @hevnsnt!
 
 
 ## How it Works
