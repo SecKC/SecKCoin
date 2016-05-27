@@ -2,7 +2,7 @@ SecKCoin 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 SecKCoin Developers
+Copyright (c) 2011-2013 Litecoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -25,12 +25,12 @@ You need the Qt4 run-time libraries to run SecKCoin-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/SecKCoin-qt (GUI, 32-bit)
-- bin/32/SecKCoind (headless, 32-bit)
-- bin/64/SecKCoin-qt (GUI, 64-bit)
-- bin/64/SecKCoind (headless, 64-bit)
+- bin/32/seckcoin-qt (GUI, 32-bit)
+- bin/32/seckcoind (headless, 32-bit)
+- bin/64/seckcoin-qt (GUI, 64-bit)
+- bin/64/seckcoind (headless, 64-bit)
 
-See the documentation at the [SecKCoin Wiki](http://SecKCoin.info)
+See the documentation at the [SecKCoin Wiki](http://seckcoin.info)
 for help and more information.
 
 

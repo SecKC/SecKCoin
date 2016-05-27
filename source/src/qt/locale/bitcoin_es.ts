@@ -251,8 +251,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SecKCoinS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS SecKCoinS&lt;/b&gt;!&quot;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS LITECOINS&lt;/b&gt;!&quot;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>SecKCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SecKCoins from being stolen by malware infecting your computer.</source>
-        <translation>SecKCoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus SecKCoins de robo por malware que infecte su sistema.</translation>
+        <source>SecKCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your seckcoins from being stolen by malware infecting your computer.</source>
+        <translation>SecKCoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus seckcoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,7 +357,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+7"/>
-        <source>Edit the list of stored addresses and labels for sending</source>
+        <source>Edit the list of stored addresses and labels</source>
         <translation>Editar la lista de las direcciones y etiquetas almacenadas</translation>
     </message>
     <message>
@@ -1072,8 +1072,8 @@ Dirección: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SecKCoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar SecKCoin: manejador de pago-al-clic</translation>
+        <source>Cannot start seckcoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar seckcoin: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -2200,8 +2200,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or SecKCoind</source>
-        <translation>Envíar comando a -server o SecKCoind</translation>
+        <source>Send command to -server or seckcoind</source>
+        <translation>Envíar comando a -server o seckcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2223,14 +2223,14 @@ Dirección: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: SecKCoin.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: SecKCoin.conf)
+        <source>Specify configuration file (default: seckcoin.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: seckcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: SecKCoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: SecKCoin.pid)
+        <source>Specify pid file (default: seckcoind.pid)</source>
+        <translation>Especificar archivo pid (predeterminado: seckcoin.pid)
 </translation>
     </message>
     <message>
@@ -2245,8 +2245,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
-        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 22556 o testnet: 44556)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
+        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 9333 o testnet: 19333)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2280,8 +2280,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 22555 o testnet:44555)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 9332 o testnet:19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2311,7 +2311,7 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SecKCoinrpc
+rpcuser=seckcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=SecKCoinrpc
+rpcuser=seckcoinrpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
@@ -2633,7 +2633,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Prepend debug output with timestamp (default: 1)</source>
+        <source>Prepend debug output with timestamp</source>
         <translation>Anteponer marca temporal a la información de depuración</translation>
     </message>
     <message>

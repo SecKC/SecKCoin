@@ -21,7 +21,6 @@ namespace Checkpoints
     // fast multicore CPU, it won't be much higher than 1.
     static const double fSigcheckVerificationFactor = 5.0;
 
-
     struct CCheckpointData {
         const MapCheckpoints *mapCheckpoints;
         int64 nTimeLastCheckpoint;
@@ -33,29 +32,22 @@ namespace Checkpoints
     // + Is surrounded by blocks with reasonable timestamps
     //   (no blocks before with a timestamp after, none after with
     //    timestamp before)
-    static MapCheckpoints mapCheckpoints =
-        boost::assign::map_list_of
-               ( 0, uint256("0xc86a87615923b0b73f3ac7772de80962ca65251fd2bfa9a096ca44bb51eacbf2"))
-			//   ( 1, uint256("0xc86a87615923b0b73f3ac7772de80962ca65251fd2bfa9a096ca44bb51eacbf2"))
-			//   ( 2, uint256("0xc86a87615923b0b73f3ac7772de80962ca65251fd2bfa9a096ca44bb51eacbf2"))
-	;
+    // + Contains no strange transactions
+    static MapCheckpoints mapCheckpoints;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1388880557, // * UNIX timestamp of last checkpoint block
+        0, // * UNIX timestamp of last checkpoint block
         0,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        8000.0     // * estimated number of transactions per day after checkpoint
+        0.0     // * estimated number of transactions per day after checkpoint
     };
 
-    static MapCheckpoints mapCheckpointsTestnet = 
-        boost::assign::map_list_of
-        (     0, uint256("0x"))
-        ;
+    static MapCheckpoints mapCheckpointsTestnet;
     static const CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1369685559,
-        37581,
-        300
+        0,
+        0,
+        0.0
     };
 
     const CCheckpointData &Checkpoints() {
@@ -67,6 +59,8 @@ namespace Checkpoints
 
     bool CheckBlock(int nHeight, const uint256& hash)
     {
+        // SecKCoin has no checkpoints yet!
+        return true;
         if (fTestNet) return true; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return true;
@@ -111,6 +105,8 @@ namespace Checkpoints
 
     int GetTotalBlocksEstimate()
     {
+        // SecKCoin has no checkpoints yet!
+        return 0;
         if (fTestNet) return 0; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return 0;
@@ -122,6 +118,8 @@ namespace Checkpoints
 
     CBlockIndex* GetLastCheckpoint(const std::map<uint256, CBlockIndex*>& mapBlockIndex)
     {
+        // SecKCoin has no checkpoints yet!
+        return NULL;
         if (fTestNet) return NULL; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return NULL;

@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>bitcoin.icns</string>
+	<string>seckcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -17,17 +17,17 @@
 	<key>CFBundleExecutable</key>
 	<string>SecKCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.SecKCoin.SecKCoin-Qt</string>
+	<string>org.seckcoin.SecKCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.SecKCoin.SecKCoinPayment</string>
+            <string>org.seckcoin.SecKCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>SecKCoin</string>
+              <string>seckcoin</string>
             </array>
           </dict>
         </array>

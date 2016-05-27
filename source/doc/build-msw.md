@@ -84,6 +84,6 @@ SecKCoin
 -------
 DOS prompt:
 
-	cd \SecKCoin\src
+	cd \seckcoin\src
 	mingw32-make -f makefile.mingw
-	strip SecKCoind.exe
+	strip seckcoind.exe

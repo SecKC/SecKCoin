@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About SecKCoin</source>
-        <translation>關於葉子幣</translation>
+        <translation>關於莱特幣</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;SecKCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;葉子幣&lt;/b&gt;版本</translation>
+        <translation>&lt;b&gt;莱特幣&lt;/b&gt;版本</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>The SecKCoin developers</source>
-        <translation>葉子幣開發人員</translation>
+        <translation>莱特幣開發人員</translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your SecKCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>這些是你用來收款的葉子幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
+        <translation>這些是你用來收款的莱特幣位址. 你可以提供不同的位址給不同的付款人, 來追蹤是誰支付給你.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a SecKCoin address</source>
-        <translation>簽署訊息是用來證明葉子幣位址是你的</translation>
+        <translation>簽署訊息是用來證明莱特幣位址是你的</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,7 +108,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified SecKCoin address</source>
-        <translation>驗證訊息是用來確認訊息是用指定的葉子幣位址簽署的</translation>
+        <translation>驗證訊息是用來確認訊息是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your SecKCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的葉子幣位址. 在付錢之前, 務必要檢查金額和收款位址是否正確.</translation>
+        <translation>這是你用來付款的莱特幣位址. 在付錢之前, 務必要檢查金額和收款位址是否正確.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的葉子幣&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的莱特幣&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>SecKCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SecKCoins from being stolen by malware infecting your computer.</source>
-        <translation>葉子幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的葉子幣.</translation>
+        <source>SecKCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your seckcoins from being stolen by malware infecting your computer.</source>
+        <translation>莱特幣現在要關閉以完成加密程序. 請記住, 加密錢包無法完全防止入侵電腦的惡意程式偷取你的莱特幣.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -354,7 +354,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Edit the list of stored addresses and labels for sending</source>
+        <source>Edit the list of stored addresses and labels</source>
         <translation>編輯位址與標記的儲存列表</translation>
     </message>
     <message>
@@ -375,7 +375,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about SecKCoin</source>
-        <translation>顯示葉子幣相關資訊</translation>
+        <translation>顯示莱特幣相關資訊</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,12 +420,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a SecKCoin address</source>
-        <translation>付錢到葉子幣位址</translation>
+        <translation>付錢到莱特幣位址</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for SecKCoin</source>
-        <translation>修改葉子幣的設定選項</translation>
+        <translation>修改莱特幣的設定選項</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,7 +456,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-165"/>
         <location line="+530"/>
         <source>SecKCoin</source>
-        <translation>葉子幣</translation>
+        <translation>莱特幣</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,7 +481,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About SecKCoin</source>
-        <translation>關於葉子幣</translation>
+        <translation>關於莱特幣</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,12 +501,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign messages with your SecKCoin addresses to prove you own them</source>
-        <translation>用葉子幣位址簽署訊息來證明那是你的</translation>
+        <translation>用莱特幣位址簽署訊息來證明那是你的</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified SecKCoin addresses</source>
-        <translation>驗證訊息來確認是用指定的葉子幣位址簽署的</translation>
+        <translation>驗證訊息來確認是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,12 +537,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>SecKCoin client</source>
-        <translation>葉子幣客戶端軟體</translation>
+        <translation>莱特幣客戶端軟體</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to SecKCoin network</source>
-        <translation><numerusform>與葉子幣網路有 %n 個連線在使用中</numerusform></translation>
+        <translation><numerusform>與莱特幣網路有 %n 個連線在使用中</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,7 +656,7 @@ Address: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid SecKCoin address or malformed URI parameters.</source>
-        <translation>無法解析 URI! 也許葉子幣位址無效或 URI 參數有誤.</translation>
+        <translation>無法解析 URI! 也許莱特幣位址無效或 URI 參數有誤.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,7 +671,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. SecKCoin can no longer continue safely and will quit.</source>
-        <translation>發生了致命的錯誤. 葉子幣程式無法再繼續安全執行, 只好結束.</translation>
+        <translation>發生了致命的錯誤. 莱特幣程式無法再繼續安全執行, 只好結束.</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid SecKCoin address.</source>
-        <translation>輸入的位址 &quot;%1&quot; 並不是有效的葉子幣位址.</translation>
+        <translation>輸入的位址 &quot;%1&quot; 並不是有效的莱特幣位址.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,7 +756,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>SecKCoin-Qt</source>
-        <translation>葉子幣-Qt</translation>
+        <translation>莱特幣-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -820,12 +820,12 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start SecKCoin after logging in to the system.</source>
-        <translation>在登入系統後自動啓動葉子幣.</translation>
+        <translation>在登入系統後自動啓動莱特幣.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start SecKCoin on system login</source>
-        <translation>系統登入時啟動葉子幣</translation>
+        <translation>系統登入時啟動莱特幣</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -855,7 +855,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Connect to the SecKCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>透過 SOCKS 代理伺服器連線至葉子幣網路 (比如說要透過 Tor 連線).</translation>
+        <translation>透過 SOCKS 代理伺服器連線至莱特幣網路 (比如說要透過 Tor 連線).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -930,7 +930,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting SecKCoin.</source>
-        <translation>可以在這裡設定使用者介面的語言. 這個設定在葉子幣程式重啓後才會生效.</translation>
+        <translation>可以在這裡設定使用者介面的語言. 這個設定在莱特幣程式重啓後才會生效.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -945,7 +945,7 @@ Address: %4
     <message>
         <location line="+9"/>
         <source>Whether to show SecKCoin addresses in the transaction list or not.</source>
-        <translation>是否要在交易列表中顯示葉子幣位址.</translation>
+        <translation>是否要在交易列表中顯示莱特幣位址.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -997,7 +997,7 @@ Address: %4
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting SecKCoin.</source>
-        <translation>這個設定會在葉子幣程式重啓後生效.</translation>
+        <translation>這個設定會在莱特幣程式重啓後生效.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,7 +1016,7 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SecKCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的. 與葉子幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
+        <translation>顯示的資訊可能是過期的. 與莱特幣網路的連線建立後, 你的錢包會自動和網路同步, 但這個步驟還沒完成.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start SecKCoin: click-to-pay handler</source>
-        <translation>無法啟動 SecKCoin 隨按隨付處理器</translation>
+        <source>Cannot start seckcoin: click-to-pay handler</source>
+        <translation>無法啟動 seckcoin 隨按隨付處理器</translation>
     </message>
 </context>
 <context>
@@ -1220,7 +1220,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Show the SecKCoin-Qt help message to get a list with possible SecKCoin command-line options.</source>
-        <translation>顯示葉子幣-Qt的求助訊息, 來取得可用的命令列選項列表.</translation>
+        <translation>顯示莱特幣-Qt的求助訊息, 來取得可用的命令列選項列表.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,12 +1240,12 @@ Address: %4
     <message>
         <location line="-104"/>
         <source>SecKCoin - Debug window</source>
-        <translation>葉子幣 - 除錯視窗</translation>
+        <translation>莱特幣 - 除錯視窗</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>SecKCoin Core</source>
-        <translation>葉子幣核心</translation>
+        <translation>莱特幣核心</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1255,7 +1255,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Open the SecKCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>從目前的資料目錄下開啓葉子幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
+        <translation>從目前的資料目錄下開啓莱特幣的除錯紀錄檔. 當紀錄檔很大時可能要花好幾秒的時間.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1265,7 +1265,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the SecKCoin RPC console.</source>
-        <translation>歡迎使用葉子幣 RPC 主控台.</translation>
+        <translation>歡迎使用莱特幣 RPC 主控台.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1449,7 +1449,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a SecKCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>輸入葉子幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1514,7 +1514,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this SecKCoin address</source>
-        <translation>簽署訊息是用來證明這個葉子幣位址是你的</translation>
+        <translation>簽署訊息是用來證明這個莱特幣位址是你的</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1550,7 +1550,7 @@ Address: %4
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified SecKCoin address</source>
-        <translation>驗證訊息是用來確認訊息是用指定的葉子幣位址簽署的</translation>
+        <translation>驗證訊息是用來確認訊息是用指定的莱特幣位址簽署的</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,7 +1566,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a SecKCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>輸入葉子幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,7 +1576,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter SecKCoin signature</source>
-        <translation>輸入葉子幣簽章</translation>
+        <translation>輸入莱特幣簽章</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Address: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The SecKCoin developers</source>
-        <translation>葉子幣開發人員</translation>
+        <translation>莱特幣開發人員</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2188,7 +2188,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>SecKCoin version</source>
-        <translation>葉子幣版本</translation>
+        <translation>莱特幣版本</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or SecKCoind</source>
-        <translation>送指令給 -server 或 SecKCoind
+        <source>Send command to -server or seckcoind</source>
+        <translation>送指令給 -server 或 seckcoind
 </translation>
     </message>
     <message>
@@ -2221,14 +2221,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: SecKCoin.conf)</source>
-        <translation>指定設定檔 (預設: SecKCoin.conf)
+        <source>Specify configuration file (default: seckcoin.conf)</source>
+        <translation>指定設定檔 (預設: seckcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: SecKCoind.pid)</source>
-        <translation>指定行程識別碼檔案 (預設: SecKCoind.pid)
+        <source>Specify pid file (default: seckcoind.pid)</source>
+        <translation>指定行程識別碼檔案 (預設: seckcoind.pid)
 </translation>
     </message>
     <message>
@@ -2244,8 +2244,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 22556, 或若為測試網路: 44556)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 9333, 或若為測試網路: 19333)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2279,8 +2279,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 22555, 或若為測試網路: 44555)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 9332, 或若為測試網路: 19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2309,7 +2309,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SecKCoinrpc
+rpcuser=seckcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo
         <translation>%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
 %s
 建議你使用以下隨機產生的密碼:
-rpcuser=SecKCoinrpc
+rpcuser=seckcoinrpc
 rpcpassword=%s
 (你不用記住這個密碼)
 使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同!
@@ -2343,7 +2343,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. SecKCoin is probably already running.</source>
-        <translation>無法鎖定資料目錄 %s. 也許葉子幣已經在執行了.</translation>
+        <translation>無法鎖定資料目錄 %s. 也許莱特幣已經在執行了.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2388,7 +2388,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SecKCoin will not work properly.</source>
-        <translation>警告: 請檢查電腦時間與日期是否正確! 葉子幣無法在時鐘不準的情況下正常運作.</translation>
+        <translation>警告: 請檢查電腦時間與日期是否正確! 莱特幣無法在時鐘不準的情況下正常運作.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2508,7 +2508,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>寫入葉子幣資料庫失敗</translation>
+        <translation>寫入莱特幣資料庫失敗</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2528,7 +2528,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>生產葉子幣 (預設值: 0)</translation>
+        <translation>生產莱特幣 (預設值: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2632,7 +2632,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Prepend debug output with timestamp (default: 1)</source>
+        <source>Prepend debug output with timestamp</source>
         <translation>在除錯輸出內容前附加時間</translation>
     </message>
     <message>
@@ -2840,7 +2840,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart SecKCoin to complete</source>
-        <translation>錢包需要重寫: 請重啟葉子幣來完成</translation>
+        <translation>錢包需要重寫: 請重啟莱特幣來完成</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2900,7 +2900,7 @@ alertnotify=echo %%s | mail -s &quot;SecKCoin Alert&quot; admin@foo.com
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. SecKCoin is probably already running.</source>
-        <translation>無法和這台電腦上的 %s 繫結. 也許葉子幣已經在執行了.</translation>
+        <translation>無法和這台電腦上的 %s 繫結. 也許莱特幣已經在執行了.</translation>
     </message>
     <message>
         <location line="+64"/>

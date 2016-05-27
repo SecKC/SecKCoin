@@ -29,7 +29,6 @@ public:
         DisplayUnit,       // BitcoinUnits::Unit
         DisplayAddresses,  // bool
         Language,          // QString
-        CoinControlFeatures, // bool
         OptionIDRowCount,
     };
 
@@ -50,7 +49,6 @@ public:
     int getDisplayUnit() { return nDisplayUnit; }
     bool getDisplayAddresses() { return bDisplayAddresses; }
     QString getLanguage() { return language; }
-    bool getCoinControlFeatures();
 
 private:
     int nDisplayUnit;
@@ -58,12 +56,9 @@ private:
     bool fMinimizeToTray;
     bool fMinimizeOnClose;
     QString language;
-    bool fCoinControlFeatures;
 
 signals:
     void displayUnitChanged(int unit);
-    void transactionFeeChanged(qint64);
-    void coinControlFeaturesChanged(bool);
 };
 
 #endif // OPTIONSMODEL_H
