@@ -34,5 +34,8 @@
 
 
 ## How it Works
-More to come
-
+debian/jessie
+sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev
+git clone 
+cd src
+ make -f makefile.unix USE_UPNP=-
