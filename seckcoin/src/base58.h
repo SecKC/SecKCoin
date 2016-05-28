@@ -274,7 +274,7 @@ public:
     {
         PUBKEY_ADDRESS = 63, // SecKCoin addresses start with L
         SCRIPT_ADDRESS = 253,
-        PUBKEY_ADDRESS_TEST = 254,
+        PUBKEY_ADDRESS_TEST = 65,
         SCRIPT_ADDRESS_TEST = 252,
     };
 
