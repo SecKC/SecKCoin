@@ -35,7 +35,7 @@
 
 ## How it Works
 debian/jessie
-sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev
-git clone 
+sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
+git clone https://github.com/hevnsnt/SecKCoin.git
 cd src
  make -f makefile.unix USE_UPNP=-
