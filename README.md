@@ -46,6 +46,6 @@
 * make -f makefile.unix USE_UPNP=-
 
 #### Node Info ####
-addnode=hevnsnt.ddns.net:1337
-addnode=104.154.95.66:1337
-addnode=107.178.223.6:1337
+* addnode=hevnsnt.ddns.net:1337
+* addnode=104.154.95.66:1337
+* addnode=107.178.223.6:1337
