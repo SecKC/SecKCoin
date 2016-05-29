@@ -38,5 +38,12 @@
 
 
 ## How it Works
-More to come
+debian/jessie
+sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
+git clone https://github.com/hevnsnt/SecKCoin.git
+cd src
+ make -f makefile.unix USE_UPNP=-
 
+addnode=hevnsnt.ddns.net:1337
+addnode=104.154.95.66:1337
+addnode=107.178.223.6:1337
