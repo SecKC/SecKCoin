@@ -8,11 +8,11 @@
 ## ⏣SKC Technical Details ##
 * Coin Type: Pure PoW (https://en.bitcoin.it/wiki/Proof_of_work)
 * Hashing Algorithm: Scrypt (https://en.bitcoin.it/wiki/Scrypt_proof_of_work)
-* Time Between Blocks (in seconds): 15 
-* Block Reward: 1,337
-* Block Reward Halving Rate: 100
-* Daily Block Count: 5,760
-* Coins Generated Per Day: 7,701,120
+* Time Between Blocks (in seconds): 86
+* Block Reward: 1.337
+* Block Reward Halving Rate: 840,000
+* Daily Block Count: 1004.65
+* Coins Generated Per Day: 1337'ish (do your own math, and back off it was the closest I could get)
 
 ## ⏣Requirements ##
 * Wallet supports Windows and Linux! It does work with Wine + OSX.  (I know I know, I am working on mobile clients)
@@ -23,12 +23,25 @@
 * None of the authors, contributors, administrators, vandals, or anyone else connected with SecKC, in any way whatsoever, can be responsible for your use of this software or software contained in or linked from these repositories.
 
 ### How to I use the ⏣SKC Wallet?###
+#### debian/jessie ####
+In order to run the wallet, you will need to compile it yourself.  The instructions below show how to get it running on Debian/Jessie.
+* sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
+* git clone https://github.com/hevnsnt/SecKCoin.git
+* cd SecKCoin/seckcoin-src/src
+* make -f makefile.unix USE_UPNP=-
+
+#### Neo-Node Info ####
+* addnode=104.154.95.66:1337
+* addnode=107.178.223.6:1337
+
+
+Until further notice (watch #SecKCoin slack channel) DO NOT USE the windows client, as it is deprecated at this time.  We are working to create another version. 
 * Run SecKCoin_Miner_V1.exe
 * Click Help --> Debug Window
 
  ```
- addnode 198.12.124.66 add
- addnode 136.61.186.142 add
+ addnode 104.154.95.66:1337 add
+ addnode 107.178.223.6:1337 add
 ```
 
 [![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/resources/SecKCoin2.gif)]
@@ -40,12 +53,4 @@
 ## How it Works
 
 ### REBOOT CODE ###
-#### debian/jessie ####
-* sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
-* git clone https://github.com/hevnsnt/SecKCoin.git
-* make -f makefile.unix USE_UPNP=-
 
-#### Node Info ####
-* addnode=hevnsnt.ddns.net:1337
-* addnode=104.154.95.66:1337
-* addnode=107.178.223.6:1337
