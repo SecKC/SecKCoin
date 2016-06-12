@@ -36,17 +36,6 @@ In order to run the wallet, you will need to compile it yourself.  The instructi
 
 
 Until further notice (watch #SecKCoin slack channel) DO NOT USE the windows client, as it is deprecated at this time.  We are working to create another version. 
-* Run SecKCoin_Miner_V1.exe
-* Click Help --> Debug Window
-
- ```
- addnode 104.154.95.66:1337 add
- addnode 107.178.223.6:1337 add
-```
-
-[![SKC Jiff](https://raw.githubusercontent.com/SecKC/SecKCoin/master/resources/SecKCoin2.gif)]
-* Add SV569yTJR1ZZV5voERvKGEdWhvxrJ8Bcg4 to your address book. (Thats me!)
-* Wallet addresses are ONLY available through the Windows client.
 * Paper Wallets now available!  Thanks @hevnsnt!
 
 
