@@ -1,0 +1,117 @@
+# SecKCoin.conf configuration file. Lines beginning with # are comments.
+ 
+ 
+ # Network-related settings:
+ 
+ # Run on the test network instead of the real seckcoin network.
+ #testnet=0
+ 
+ # Connect via a socks4 proxy
+ #proxy=127.0.0.1:9050
+ 
+ ##############################################################
+ ##            Quick Primer on addnode vs connect            ##
+ ##  Let's say for instance you use addnode=4.2.2.4          ##
+ ##  addnode will connect you to and tell you about the      ##
+ ##    nodes connected to 4.2.2.4.  In addition it will tell ##
+ ##    the other nodes connected to it that you exist so     ##
+ ##    they can connect to you.                              ##
+ ##  connect will not do the above when you 'connect' to it. ##
+ ##    It will *only* connect you to 4.2.2.4 and no one else.##
+ ##                                                          ##
+ ##  So if you're behind a firewall, or have other problems  ##
+ ##  finding nodes, add some using 'addnode'.                ##
+ ##                                                          ##
+ ##  If you want to stay private, use 'connect' to only      ##
+ ##  connect to "trusted" nodes.                             ##
+ ##                                                          ##
+ ##  If you run multiple nodes on a LAN, there's no need for ##
+ ##  all of them to open lots of connections.  Instead       ##
+ ##  'connect' them all to one node that is port forwarded   ##
+ ##  and has lots of connections.                            ##
+ ##       Thanks goes to [Noodle] on Freenode.               ##
+ ##############################################################
+ 
+ # Use as many addnode= settings as you like to connect to specific peers
+ addnode=104.154.95.66:1337
+ addnode=107.178.223.6:1337
+ addnode=hevnsnt.ddns.net:1337
+ 
+ # ... or use as many connect= settings as you like to connect ONLY
+ # to specific peers:
+ #connect=107.178.223.6
+ #connect=10.0.0.1:9333
+ 
+ 
+ # Maximum number of inbound+outbound connections.
+ #maxconnections=
+ 
+ 
+ # JSON-RPC options (for controlling a running seckcoin/seckcoind process)
+ 
+ # server=1 tells seckcoin-QT to accept JSON-RPC commands.
+ server=1
+ 
+ # You must set rpcuser and rpcpassword to secure the JSON-RPC api
+ rpcuser=SECKC_rpc
+ rpcpassword=YourSuperGreatPassword
+
+
+ 
+ # How many seconds seckcoin will wait for a complete RPC HTTP request.
+ # after the HTTP connection is established. 
+ #rpctimeout=30
+ 
+ # By default, only RPC connections from localhost are allowed.  Specify
+ # as many rpcallowip= settings as you like to allow connections from
+ # other hosts (and you may use * as a wildcard character).
+ # NOTE: opening up the RPC port to hosts outside your local
+ # trusted network is NOT RECOMMENDED, because the rpcpassword
+ # is transmitted over the network unencrypted.
+ #rpcallowip=10.1.1.34
+ #rpcallowip=192.168.1.*
+ 
+ # Listen for RPC connections on this TCP port:
+ #rpcport=11337
+ 
+ # You can use seckcoin or seckcoind to send commands to seckcoin/seckcoind
+ # running on another host using this option:
+ #rpcconnect=127.0.0.1
+ 
+ # Use Secure Sockets Layer (also known as TLS or HTTPS) to communicate
+ # with seckcoin -server or seckcoind
+ #rpcssl=1
+ 
+ # OpenSSL settings used when rpcssl=1
+ #rpcsslciphers=TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH
+ #rpcsslcertificatechainfile=server.cert
+ #rpcsslprivatekeyfile=server.pem
+ 
+ 
+ # Miscellaneous options
+ 
+ # Set gen=1 to attempt to generate seckcoins -- This does not work
+ # gen=1
+  
+ # Pre-generate this many public/private key pairs, so wallet backups will be valid for
+ # both prior transactions and several dozen future transactions.
+ #keypool=100
+ 
+ # Pay an optional transaction fee every time you send seckcoins.  Transactions with fees
+ # are more likely than free transactions to be included in generated blocks, so may
+ # be validated sooner.
+ paytxfee=0.001
+ 
+ # Allow direct connections for the 'pay via IP address' feature.
+ #allowreceivebyip=1
+ 
+ # Allows seckcoind to operate with the BDB wallet disabled.
+ #disablewallet=1
+ 
+ # User interface options
+ 
+ # Start seckcoin minimized
+ daemon=1
+ 
+ # Minimize to the system tray
+ #minimizetotray=1
