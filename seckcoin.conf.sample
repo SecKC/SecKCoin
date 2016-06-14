@@ -53,8 +53,8 @@
  server=1
  
  # You must set rpcuser and rpcpassword to secure the JSON-RPC api
- rpcuser=SECKC_rpc
- rpcpassword=YourSuperGreatPassword
+ #rpcuser=SECKC_rpc
+ #rpcpassword=YourSuperGreatPassword
 
 
  
