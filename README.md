@@ -34,7 +34,6 @@ Thanks to everyone who has contributed to the development of SKC.
 In order to run the wallet, you will need to compile it yourself.  The instructions below show how to get it running on Debian/Jessie.
 * sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
 * git clone https://github.com/SecKC/SecKCoin.git
-* tar xzvf seckcoin-fin.tar.gz
 * cd seckcoin/src
 * make -f makefile.unix USE_UPNP=-
 
