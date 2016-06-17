@@ -1,7 +1,7 @@
 ## ⏣SecKCoin (SKC) is a cryptocurrency developed by SecKC.
 
 ========================
-#[Blockchain Explorer](https://seckchain.get-o.net/) 
+#[Blockchain Explorer](https://seckco.in/) 
 
 ## CONTRIBUTORS ##
 Thanks to everyone who has contributed to the development of SKC.
