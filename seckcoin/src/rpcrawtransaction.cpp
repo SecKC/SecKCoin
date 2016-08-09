@@ -170,12 +170,34 @@ Value listunspent(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 3)
         throw runtime_error(
-            "listunspent [minconf=1] [maxconf=9999999]  [\"address\",...]\n"
-            "Returns array of unspent transaction outputs\n"
+            "listunspent ( minconf maxconf  [\"address\",...] )\n"
+            "\nReturns array of unspent transaction outputs\n"
             "with between minconf and maxconf (inclusive) confirmations.\n"
-            "Optionally filtered to only include txouts paid to specified addresses.\n"
+            "Optionally filter to only include txouts paid to specified addresses.\n"
             "Results are an array of Objects, each of which has:\n"
-            "{txid, vout, scriptPubKey, amount, confirmations}");
+            "{txid, vout, scriptPubKey, amount, confirmations}\n"
+            "\nArguments:\n"
+            "1. minconf          (numeric, optional, default=1) The minimum confirmations to filter\n"
+            "2. maxconf          (numeric, optional, default=9999999) The maximum confirmations to filter\n"
+            "3. \"addresses\"    (string) A json array of litecoin addresses to filter\n"
+            "    [\n"
+            "      \"address\"   (string) litecoin address\n"
+            "      ,...\n"
+            "    ]\n"
+            "\nResult\n"
+            "[                   (array of json object)\n"
+            "  {\n"
+            "    \"txid\" : \"txid\",        (string) the transaction id \n"
+            "    \"vout\" : n,               (numeric) the vout value\n"
+            "    \"address\" : \"address\",  (string) the litecoin address\n"
+            "    \"account\" : \"account\",  (string) The associated account, or \"\" for the default account\n"
+            "    \"scriptPubKey\" : \"key\", (string) the script key\n"
+            "    \"amount\" : x.xxx,         (numeric) the transaction amount in ltc\n"
+            "    \"confirmations\" : n       (numeric) The number of confirmations\n"
+            "  }\n"
+            "  ,...\n"
+            "]\n"
+        );
 
     RPCTypeCheck(params, list_of(int_type)(int_type)(array_type));
 
@@ -188,11 +210,9 @@ Value listunspent(const Array& params, bool fHelp)
         nMaxDepth = params[1].get_int();
 
     set<CBitcoinAddress> setAddress;
-    if (params.size() > 2)
-    {
+    if (params.size() > 2) {
         Array inputs = params[2].get_array();
-        BOOST_FOREACH(Value& input, inputs)
-        {
+        BOOST_FOREACH(Value& input, inputs) {
             CBitcoinAddress address(input.get_str());
             if (!address.IsValid())
                 throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid SecKCoin address: ")+input.get_str());
@@ -204,14 +224,13 @@ Value listunspent(const Array& params, bool fHelp)
 
     Array results;
     vector<COutput> vecOutputs;
+    assert(pwalletMain != NULL);
     pwalletMain->AvailableCoins(vecOutputs, false);
-    BOOST_FOREACH(const COutput& out, vecOutputs)
-    {
+    BOOST_FOREACH(const COutput& out, vecOutputs) {
         if (out.nDepth < nMinDepth || out.nDepth > nMaxDepth)
             continue;
 
-        if (setAddress.size())
-        {
+        if (setAddress.size()) {
             CTxDestination address;
             if (!ExtractDestination(out.tx->vout[out.i].scriptPubKey, address))
                 continue;
@@ -226,19 +245,16 @@ Value listunspent(const Array& params, bool fHelp)
         entry.push_back(Pair("txid", out.tx->GetHash().GetHex()));
         entry.push_back(Pair("vout", out.i));
         CTxDestination address;
-        if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, address))
-        {
+        if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, address)) {
             entry.push_back(Pair("address", CBitcoinAddress(address).ToString()));
             if (pwalletMain->mapAddressBook.count(address))
                 entry.push_back(Pair("account", pwalletMain->mapAddressBook[address]));
         }
         entry.push_back(Pair("scriptPubKey", HexStr(pk.begin(), pk.end())));
-        if (pk.IsPayToScriptHash())
-        {
+        if (pk.IsPayToScriptHash()) {
             CTxDestination address;
-            if (ExtractDestination(pk, address))
-            {
-                const CScriptID& hash = boost::get<const CScriptID&>(address);
+            if (ExtractDestination(pk, address)) {
+                const CScriptID& hash = boost::get<CScriptID>(address);
                 CScript redeemScript;
                 if (pwalletMain->GetCScript(hash, redeemScript))
                     entry.push_back(Pair("redeemScript", HexStr(redeemScript.begin(), redeemScript.end())));
