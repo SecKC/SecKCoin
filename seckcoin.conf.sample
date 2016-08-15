@@ -33,9 +33,10 @@
  ##############################################################
  
  # Use as many addnode= settings as you like to connect to specific peers
- addnode=104.154.95.66:1337
- addnode=107.178.223.6:1337
+ addnode=162.243.116.8:1337
+ addnode=107.170.52.120:1337
  addnode=hevnsnt.ddns.net:1337
+ #addnode=2604:a880:0:1010::985:8001:1337 #If you want to try IPV6, Un-comment this line
  
  # ... or use as many connect= settings as you like to connect ONLY
  # to specific peers:
