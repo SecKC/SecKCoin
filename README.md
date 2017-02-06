@@ -1,4 +1,7 @@
 ## ⏣SecKCoin (SKC) is a cryptocurrency developed by SecKC.
+[![GitHub forks](https://img.shields.io/github/forks/SecKC/SecKCoin.svg)](https://github.com/SecKC/SecKCoin/network)
+[![GitHub stars](https://img.shields.io/github/stars/SecKC/SecKCoin.svg)](https://github.com/SecKC/SecKCoin/stargazers)
+[![Documentation Status](https://readthedocs.org/projects/seckcoin/badge/?version=1.0)](http://seckcoin.readthedocs.io/en/1.0/?badge=1.0)
 ========================
 #[Blockchain Explorer](https://seckco.in/) 
 
@@ -9,9 +12,7 @@ Thanks to everyone who has contributed to the development of SKC.
  * @myung.kang
  * @0xktwo
  * @hevnsnt
-[![GitHub forks](https://img.shields.io/github/forks/SecKC/SecKCoin.svg)](https://github.com/SecKC/SecKCoin/network)
-[![GitHub stars](https://img.shields.io/github/stars/SecKC/SecKCoin.svg)](https://github.com/SecKC/SecKCoin/stargazers)
-[![Documentation Status](https://readthedocs.org/projects/seckcoin/badge/?version=1.0)](http://seckcoin.readthedocs.io/en/1.0/?badge=1.0)
+
 
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣SKC Technical Details ##
