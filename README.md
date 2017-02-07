@@ -1,4 +1,4 @@
-## ⏣SecKCoin (SKC) is a cryptocurrency developed by SecKC.
+## [![SKC](https://img.shields.io/badge/SKC-%E2%8F%A3-blue.svg) SecKCoin is a cryptocurrency developed by SecKC.
 
 [![Documentation](https://readthedocs.org/projects/seckcoin/badge/?version=1.0)](http://seckcoin.readthedocs.io/en/1.0/?badge=1.0)
 [![GitHub forks](https://img.shields.io/github/forks/SecKC/SecKCoin.svg)](https://github.com/SecKC/SecKCoin/network)
