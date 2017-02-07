@@ -10,6 +10,8 @@ Welcome to ⏣ SecKCoin's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   QuickStart
+
 
 
 Indices and tables
