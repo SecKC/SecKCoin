@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>QuickStart &mdash; ⏣ SecKCoin 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="⏣ SecKCoin 1.0 documentation" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ⏣ SecKCoin
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">QuickStart</a><ul>
+<li><a class="reference internal" href="#wallet-creation">Wallet Creation</a><ul>
+<li><a class="reference internal" href="#debian-linux">Debian Linux</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mining-software">Mining Software</a><ul>
+<li><a class="reference internal" href="#placehoder">Placehoder</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">⏣ SecKCoin</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>QuickStart</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/QuickStart.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quickstart">
+<h1>QuickStart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h1>
+<p>In order for you to get the most out of ⏣, you need at least two things:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Wallet:</th><td class="field-body">A ⏣ wallet is a secure digital wallet used to store, send, and receive digital currency like SecKCoin (⏣). In order to use SecKCoin cryptocurrency you will need to use a cryptocurrency wallet. At this time, SecKCoin only works with our official wallet, which in most cases will need to be compiled before use.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Mining Software:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">In traditional fiat money systems, governments simply print more money when they need to. But in SecKCoin, ⏣ isn’t printed at all – it is discovered by mining. The very first thing you need in order to start mining coins is to obtain the mining program that is associated with SecKCoin. SecKCoin uses a mining client, which also works in conjunction with the ⏣ Wallet.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="wallet-creation">
+<h2>Wallet Creation<a class="headerlink" href="#wallet-creation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="debian-linux">
+<h3>Debian Linux<a class="headerlink" href="#debian-linux" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Dependancies:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>sudo apt-get install qt4-qmake libqt4-dev build-essential libssl-dev libdb++-dev libminiupnpc-dev libboost-all-dev libcurl4-openssl-dev git qt-sdk libminiupnpc-dev libssl-dev libdb++-dev
+</pre></div>
+</div>
+<p>Make a directory to store all your SKC goodies.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>mkdir ~/SKC
+</pre></div>
+</div>
+<p>Download the wallet creation software from our github repository.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>git clone https://github.com/SecKC/SecKCoin.git
+</pre></div>
+</div>
+<p>We need to customize the our Makefile prior to building the wallet from source code.
+Using the qmake command we are telling the SecKCoin wallet to NOT build the wallet with UPNP support for NAT forwarding.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/SKC/SecKCoin/seckcoin
+qmake <span class="s2">&quot;USE_UPNP=-&quot;</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Now that we&#8217;ve set that in the Makefile, lets build the wallet!</p>
+<p>Move into the directory containing source files required for building.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>cd ~/SKC/SecKCoin/seckcoin/src</p>
+</div></blockquote>
+<p>Make the wallet</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>make -f makefile.unix <span class="nv">USE_UPNP</span><span class="o">=</span>-
+</pre></div>
+</div>
+</div></blockquote>
+<p>Your shiny new wallet is called &#8220;seckcoind&#8221; and is in the following location</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>~/SKC/SecKCoin/seckcoin/src $ ls -alr
+-rwxr-xr-x  1 pi pi 46091276 Feb  6 06:08 seckcoind</p>
+</div></blockquote>
+<p>Initialize the wallet to generate seckcoind supporting directories and configuration files.</p>
+<p>The binary is portable, I recommend COPYING it into ~/SKC/ for ease of use. Then you have a backup in the src directory.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>cp ~/SKC/SecKCoin/seckcoin/src/seckcoind ~/SKC/
+cd ~/SKC
+./seckcoind</p>
+</div></blockquote>
+<p>You may see the following error.  Don&#8217;t panic, its just telling you that you haven&#8217;t set a configuration up yet.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>Error: To use seckcoind, you must set a rpcpassword in the configuration file:
+~/.seckcoin/seckcoin.conf
+[SNIP]</p>
+</div></blockquote>
+<p>The following files have now been created</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>~/.seckcoin/
+~/.seckcoin/seckcoin.conf  &lt;&#8211; This file MIGHT not have been created. Check first.
+~/.seckcoin/wallet.dat</p>
+</div></blockquote>
+<p>Copy the sample configuration provided in the github repository download to the seckcoind wallet configuration directory.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>cp ~/SKC/SecKCoin/seckcoin.conf.sample ~/.seckcoin/seckcoin.conf</p>
+</div></blockquote>
+<p>Set the following options in the ~/.seckcoin/seckcoin.conf file:</p>
+<p>Note: This is from my working configuration.</p>
+<blockquote>
+<div><div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">addnode</span><span class="o">=</span><span class="m">162</span>.243.116.8:1337
+<span class="nv">addnode</span><span class="o">=</span><span class="m">107</span>.170.52.120:1337
+<span class="nv">addnode</span><span class="o">=</span>hevnsnt.ddns.net:1337
+<span class="nv">addnode</span><span class="o">=</span><span class="m">104</span>.154.95.66:1337
+<span class="nv">addnode</span><span class="o">=</span><span class="m">107</span>.178.223.6:1337
+
+<span class="nv">server</span><span class="o">=</span><span class="m">1</span>
+
+<span class="nv">listen</span><span class="o">=</span><span class="m">1</span>
+
+<span class="nv">rpcuser</span><span class="o">=</span>SecKC_RPC
+<span class="nv">rpcpassword</span><span class="o">=</span>x
+
+<span class="nv">rpcallowip</span><span class="o">=</span><span class="m">127</span>.0.0.1
+
+<span class="nv">rpcport</span><span class="o">=</span><span class="m">11337</span>
+
+<span class="nv">paytxfee</span><span class="o">=</span><span class="m">0</span>.001
+
+<span class="nv">daemon</span><span class="o">=</span><span class="m">1</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="mining-software">
+<h2>Mining Software<a class="headerlink" href="#mining-software" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="placehoder">
+<h3>Placehoder<a class="headerlink" href="#placehoder" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, SecKC.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
