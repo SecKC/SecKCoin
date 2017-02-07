@@ -46,20 +46,20 @@ Move into the directory containing source files required for building.
 
   .. code-block:: bash
 
-    cd ~/SKC/SecKCoin/seckcoin/src
+   cd ~/SKC/SecKCoin/seckcoin/src
 
 Make the wallet
 
   .. code-block:: bash
 
-    make -f makefile.unix USE_UPNP=-
+   make -f makefile.unix USE_UPNP=-
 
 Your shiny new wallet is called "seckcoind" and is in the following location
 
   .. code-block:: bash
 
-    ~/SKC/SecKCoin/seckcoin/src $ ls -alr
-    -rwxr-xr-x  1 pi pi 46091276 Feb  6 06:08 seckcoind
+   ~/SKC/SecKCoin/seckcoin/src $ ls -alr
+   -rwxr-xr-x  1 pi pi 46091276 Feb  6 06:08 seckcoind
 
 Initialize the wallet to generate seckcoind supporting directories and configuration files.
 
@@ -67,31 +67,31 @@ The binary is portable, I recommend COPYING it into ~/SKC/ for ease of use. Then
 
   .. code-block:: bash
 
-    cp ~/SKC/SecKCoin/seckcoin/src/seckcoind ~/SKC/
-    cd ~/SKC
-    ./seckcoind
+   cp ~/SKC/SecKCoin/seckcoin/src/seckcoind ~/SKC/
+   cd ~/SKC
+   ./seckcoind
 
 You may see the following error.  Don't panic, its just telling you that you haven't set a configuration up yet.
 
   .. code-block:: bash
 
-    Error: To use seckcoind, you must set a rpcpassword in the configuration file:
-    ~/.seckcoin/seckcoin.conf
-    [SNIP]
+   Error: To use seckcoind, you must set a rpcpassword in the configuration file:
+   ~/.seckcoin/seckcoin.conf
+   [SNIP]
 
 The following files have now been created
 
   .. code-block:: bash
 
-    ~/.seckcoin/
-    ~/.seckcoin/seckcoin.conf  <-- This file MIGHT not have been created. Check first.
-    ~/.seckcoin/wallet.dat
+   ~/.seckcoin/
+   ~/.seckcoin/seckcoin.conf  <-- This file MIGHT not have been created. Check first.
+   ~/.seckcoin/wallet.dat
 
 Copy the sample configuration provided in the github repository download to the seckcoind wallet configuration directory.
 
   .. code-block:: bash
 
-  cp ~/SKC/SecKCoin/seckcoin.conf.sample ~/.seckcoin/seckcoin.conf
+   cp ~/SKC/SecKCoin/seckcoin.conf.sample ~/.seckcoin/seckcoin.conf
 
 Set the following options in the ~/.seckcoin/seckcoin.conf file:
 
