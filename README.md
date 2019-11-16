@@ -15,6 +15,7 @@ Thanks to everyone who has contributed to the development of SKC.
  * @0xktwo
  * @hevnsnt
 
+![](SecKCoin.gif)
 
 ![SecKC](https://raw.githubusercontent.com/SecKC/seckc.github.io/master/images/logo/SecKC_Hex_OnlyB_small.png "SecKC")
 ## ⏣SKC Technical Details ##
